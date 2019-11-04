@@ -11,8 +11,39 @@ public class Car{
         model = Model;
     }
 
-    public void info(){
-        System.out.println(make);
-        System.out.println(model);
+    public double getFuelEfficiency() {
+        return fuelEfficiency;
+    }
+
+    public double getFuelInTank(){
+        return fuelInTank;
+    }
+
+    public String getMake(){
+        return make;
+    }
+
+    public String getModel(){
+        return model;
+    }
+
+    public void setFuelEfficiency(double x){
+        fuelEfficiency = x;
+        return;
+    }
+
+    public void setFuelInTank(double x){
+        fuelInTank = x;
+        return;
+    }
+
+    public void setMake(String x){
+        make = x;
+        return;
+    }
+
+    public void setModel(String x){
+        model = x;
+        return;
     }
 }
